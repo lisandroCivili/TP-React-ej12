@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Titulo from './components/Titulo'
 import Formulario from './components/Formulario'
+import ListaNoticias from './components/ListaNoticias'
 import Container from 'react-bootstrap/Container'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <Titulo></Titulo>
     <Container className='border border-black'>
         <Formulario></Formulario>
+        <ListaNoticias></ListaNoticias>
     </Container>
     </>
   )

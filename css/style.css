@@ -5,13 +5,27 @@
         align-items: center;
         padding: 20px 0 20px 0;
     }
+    .noticia{
+        margin: 15px 0 10px 0;
+    }
+    .cuerpoNoticia{
+        text-align: center;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 991px){
-
+    
     .formulario{
         padding: 25px 0 25px 0;
         display: flex;
         justify-content: center ;
+    }
+    .noticias{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .noticia{
+        margin: 5px 0 10px 0;
     }
     .categoria{
         width: 30%;
@@ -32,5 +46,13 @@
     }
     .opciones{
         width: 50%;
+    }
+    .noticias{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .noticia{
+        margin: 5px 0 10px 0;
     }
 }
