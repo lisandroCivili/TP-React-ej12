@@ -1,17 +1,23 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-const Noticia = () => {
+const Noticia = ({noticias}) => {
     return (
         <>
-        <Card className='noticia'>
-            <Card.Img></Card.Img>
-            <Card.Body className='cuerpoNoticia'>
-                <Card.Title></Card.Title>
-                <Card.Text></Card.Text>
-                <Button>Ir a la noticia</Button>
-            </Card.Body>
-        </Card>      
+        {
+            noticias.map((noticia, index)=>(
+
+                <Card className='noticia' key={index}>
+                    <Card.Img></Card.Img>
+                    <Card.Body className='cuerpoNoticia'>
+                        <Card.Title>{noticia.title}</Card.Title>
+                        <Card.Text></Card.Text>
+                        <Button>Ir a la noticia</Button>
+                    </Card.Body>
+                </Card>      
+            )
+            )
+        }
         
         </>
     );

@@ -1,9 +1,9 @@
 import React from 'react';
 import Noticia from '../components/Noticia'
-const ListaNoticias = () => {
+const ListaNoticias = ({noticias}) => {
     return (
         <section className='noticias'>
-            <Noticia></Noticia>
+           <Noticia noticias={noticias}></Noticia>
         </section>
     );
 };
