@@ -13,6 +13,7 @@
         flex-direction: column;
         align-items: center;
     }
+
     .noticia{
         margin: 15px 0 10px 0;
         width: 80%;
@@ -37,10 +38,10 @@
         margin: 5px 0 10px 0;
         width: 25%;
     }
-    .categoria{
+    .categoria, .pais{
         width: 30%;
     }
-    .opciones{
+    .opciones, .paises{
         width: 50%;
     }
  
@@ -52,10 +53,10 @@
         display: flex;
         justify-content: center ;
     }
-    .categoria{
+    .categoria, .pais{
         width: 20%;
     }
-    .opciones{
+    .opciones, .paises{
         width: 50%;
     }
     .noticias{
