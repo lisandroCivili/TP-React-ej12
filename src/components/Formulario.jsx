@@ -54,7 +54,6 @@ const Formulario = () => {
             <option value="Policiales">Policiales</option>
           </Form.Select>
         </Form.Group>
-
         <Form.Group className="formulario" controlId="paises">
           <Form.Label className="pais align-self-center fs-5">
             Seleecione el país:
