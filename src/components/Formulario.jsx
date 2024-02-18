@@ -49,6 +49,22 @@ const Formulario = () => {
             <option value="Policiales">Policiales</option>
           </Form.Select>
         </Form.Group>
+        <Form.Group className="formulario" controlId="pais">
+          <Form.Label className="categoria align-self-center fs-5">
+            País de origen:
+          </Form.Label>
+          <Form.Select
+            className="pais fs-5"
+            id="pais"
+            aria-label="Default select example"
+            onChange={handleChangeSelect}
+          >
+            <option value="">Opciones</option>
+            <option value="Futbol">Fútbol</option>
+            <option value="Politica">Política</option>
+            <option value="Policiales">Policiales</option>
+          </Form.Select>
+        </Form.Group>
       </Form>
       <ListaNoticias noticias={noticias}></ListaNoticias>
     </section>
