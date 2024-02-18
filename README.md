@@ -1,10 +1,10 @@
-# Noticias de ultimo momento
+# Noticias de ultimo momento por país
 
-Aplicacion en la cual podemos elegir entre distintas categorias de noticias para hacer una solicitud a la API NewsData y obtener las mas recientes noticias.
+Aplicacion en la cual podemos elegir entre distintas categorias y paises para enterarse de las ultinmas noticias. Logramos esto una solicitud a la API NewsData 
 
 ## Link del sitio
 
-[Noticias de ultimo momento por categoria](https://rollinnews.netlify.app/)
+[Noticias de ultimo momento por categoria y país]()
 
 ##Autor
 
